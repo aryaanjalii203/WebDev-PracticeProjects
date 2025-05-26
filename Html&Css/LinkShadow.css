@@ -1,0 +1,45 @@
+a:link{
+    color:red;
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: yellow;
+}
+button:hover{
+    color: skyblue;
+}
+button:visited{
+    color: purple;
+}
+button{
+background-color: bisque;
+}
+/*
+li:nth-child(2){
+color: aqua;
+}*/
+li:nth-child(even){
+    color: aqua;
+}
+li:nth-child(odd){
+    color:darkblue;
+}
+h1{
+    text-shadow:  0px 5px 5px red, 0px 5px 5px grey;
+}
+#box{
+    box-shadow: 0px 5px 5px purple ;
+}
+
+
+.fa-envelope{
+    color:darkolivegreen;
+}
+.fa-envelope:hover{
+    color: blue;
+}

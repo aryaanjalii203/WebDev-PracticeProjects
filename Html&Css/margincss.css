@@ -1,0 +1,23 @@
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: yellowgreen;
+
+    margin-left: auto;
+
+}
+#box2{
+    margin-right: auto;
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background:skyblue
+   
+    
+}
+body{
+    margin: 0px;
+}

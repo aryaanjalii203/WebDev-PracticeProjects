@@ -1,0 +1,18 @@
+.box{
+    border: 5px solid;
+    width: 150px;
+    height: 50px;
+    float:left;
+
+
+}
+p{
+    border-style: dashed;
+    border-color: blue;
+    border-radius: 20px;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+}

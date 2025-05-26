@@ -1,0 +1,26 @@
+p{  
+     background:linear-gradient(skyblue,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: radius 5px; 
+    border-style: dotted;
+    border-width: 5px;
+    border-color: purple;
+
+}
+h1{
+    background:linear-gradient(to top,skyblue,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top-style: outset;
+    border-bottom-style: double;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-color:red;
+}
+body{
+    background-image: url(background.png);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}

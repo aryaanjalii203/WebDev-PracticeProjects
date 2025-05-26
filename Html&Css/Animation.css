@@ -1,0 +1,51 @@
+#box1{
+    border:5px solid;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    font-size: 100px;
+    background-color:aqua;
+
+    /* animation: myRotate;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-duration: 2s; */
+    
+    animation: myslide 2s ease 0s infinite running;
+    
+
+}
+#box1:hover{
+    animation: mycolor 2s ease 0s infinite running;
+}
+
+
+@keyframes myslide{
+    from{margin-left: 1000px;}
+    to{margin-left: 0px;}
+}
+
+@keyframes myRotate{
+    100%{transform: rotateX(360deg);}
+    
+}
+
+
+    @keyframes mycolor{
+    20%{background-color:azure;}
+    40%{
+        background-color: red;
+    }
+    60%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: blue;
+    }
+    100%{
+        background-color: purple;
+    }
+}
+
