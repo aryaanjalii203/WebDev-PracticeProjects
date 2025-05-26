@@ -1,0 +1,19 @@
+/* div{
+    border: 5px solid red;
+    width:250px;
+    height: 250px;
+    text-align: center;
+    color: purple;
+    background-color: aqua;
+}; */
+
+  .dark {
+    background-color: black;
+  
+  }
+
+  .light {
+    background-color: green;
+    
+  } 
+ 

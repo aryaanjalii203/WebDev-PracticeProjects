@@ -1,0 +1,22 @@
+body{
+    background-color:pink;
+}
+#a{
+    background-color: blue;
+    color: palevioletred;
+    text-align: center;
+    text-decoration: dashed;
+}
+.class-heading{
+    background-color: aqua;
+    text-align: center;
+    text-decoration: double;
+
+}
+p{
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    border: 5px solid red;
+    border-color: chartreuse;
+}
